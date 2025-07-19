@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 6
+names: ['Edge line', 'Potholes', 'cracks', 'lane divider', 'objects', 'zebra crossing']
+
+roboflow:
+  workspace: road-detection-tuv17
+  project: road-anomalies-detection
+  version: 5
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/road-detection-tuv17/road-anomalies-detection/dataset/5
